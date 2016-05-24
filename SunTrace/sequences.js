@@ -10,11 +10,11 @@ var b = {
 
 // Mapping of step names to colors.
 var colors = {
-  "home": "#5687d1",
-  "product": "#7b615c",
-  "search": "#de783b",
-  "account": "#6ab975",
-  "other": "#a173d1",
+  "home": "#a1d490",
+  "product": "#90C3D4",
+  "search": "#C390D4",
+  "account": "#D4A190",
+  "other": "#40A2C2",
   "end": "#bbbbbb"
 };
 

@@ -4,7 +4,7 @@
 <style>
 
 .land {
-  fill: #ddd;
+  fill: brown;
 }
 
 .border {
@@ -15,7 +15,7 @@
 }
 
 .bubble {
-  fill: brown;
+  fill: blue;
   fill-opacity: .5;
   stroke: #fff;
   stroke-width: .5px;
@@ -38,6 +38,10 @@
 
 </style>
 <body>
+<footer>
+  
+  <p>Data Source: <a href="http://factfinder2.census.gov/"> American Community Survey</a></p>
+</footer>
 <script src="//d3js.org/d3.v3.min.js"></script>
 <script src="//d3js.org/topojson.v1.min.js"></script>
 <script>
@@ -105,3 +109,4 @@ d3.json("us.json", function(error, us) {
 d3.select(self.frameElement).style("height", height + "px");
 
 </script>
+</body>
